@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>微官网</title>
+	<meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+	
+	<!-- Mobile Devices Support @begin -->
+        <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+        <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+        <meta content="no-cache" http-equiv="pragma">
+        <meta content="0" http-equiv="expires">
+        <meta content="telephone=no, address=no" name="format-detection">
+        <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- Mobile Devices Support @end -->
+	
+	<link href="__CSS__/index.css" rel="stylesheet" type="text/css" />
+	<link href="__CSS__/common.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__JS__/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="__JS__/main.js"></script>
+	<script type="text/javascript" src="__JS__/jquery.rotate.min.js"></script>
+</head>
+
+<body>
+<div class="main">
+	<!--头部-->
+	<div class="header" id="bktop">
+		<div class="logo"><a href="index.html"><img src="__IMG__/logo.gif" /></a></div>
+		<div class="banner">
+			<div class="close"><img id="img1" src="__IMG__/banner01.gif" /></div>
+			<div class="open hide"><img id="img2" src="__IMG__/banner02.gif" /></div>
+			<ul class="xla">
+				<li>
+					<a href="about.html"><font>关于我们</font><img src="__IMG__/xiala.gif" /></a>
+				</li>
+				<li>
+					<a class="dianj dj1" href="javascript:;"><font>最新资讯</font><img id="ig1" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="news.html">服饰搭配</a>
+						<a href="news.html">时尚家居</a>
+						<a href="news.html">美食特产</a>
+					</div>
+				</li>
+				<li>
+					<a class="dianj dj2" href="javascript:;"><font>图片墙</font><img id="ig2" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="images.html">服饰搭配</a>
+						<a href="images.html">时尚家居</a>
+						<a href="images.html">美食特产</a>
+					</div>
+				</li>
+				<li>
+					<a href="class.html"><font>分类查询</font><img id="ig3" src="__IMG__/xiala.gif" /></a>
+				</li>
+				<li>
+					<a class="dianj dj4" href="javascript:;"><font>推荐阅读</font><img id="ig4" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="#">服饰搭配</a>
+						<a href="#">时尚家居</a>
+						<a href="#">美食特产</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clearBoth"></div>
+	</div>
+	<!--关于我们内容-->
+	<div class="newsban">首页 > 最新资讯 > 服饰搭配 > 正文</div>
+	<div class="newbt">暖暖的，好贴心</div>
+	<div class="about">		
+		<div class="content2">
+			<table class="what">
+				<tr class="time">
+					<td class="tub"><img src="__IMG__/time.gif" /></td>
+					<td class="shij">2014-10-25</td>
+					<td class="clearBoth"></td>
+				</tr>
+				<tr class="time hit">
+					<td class="tub"><img src="__IMG__/hit.gif" /></td>
+					<td class="shij">1022</td>
+					<td class="clearBoth"></td>
+				</tr>
+				<td class="clearBoth"></td>
+			</table>
+			<!--编辑内容-->
+			<p style="color:#cccccc;font-size:16px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;街拍里，时尚达人们露出纤细漂亮的大腿，仿佛和深秋生活在不同的次元范围。平凡又普通的姑娘们有心借鉴她们的搭配方法，却在日常里发现美丽的代价实在有点大。不过亲爱的，你有没有发现，达人们的呢大衣更值得学习。</p></br>
+			<p style="text-align:center;"><img src="__IMG__/product/14110702.jpg" /></p></br>
+			<p style="color:#cccccc;font-size:16px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp;01 最经典莫过于英伦式双排扣的毛呢外套，如果是藏蓝色那就更好。呢大衣自身的版型就足以补救尚未减肥的悲伤，毛衫+打底裤+长短靴的自由组合在衣橱里扒拉一下谁都能穿上。呈现对比色的围脖作为点睛之笔，将秋天点亮。</p></br>
+			<p style="text-align:center;"><img src="__IMG__/product/14110703.jpg" /></p></br>
+			<p style="color:#cccccc;font-size:16px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp; 02 不纠结呢大衣该怎么装饰才好，不喜欢围脖或是围巾作为造型助力选择一件防风小立领的呢大衣就能把问题通通解决掉。大而圆润的斜襟扣兼顾了美观和实用性，什么叫做拿一份薪水做两份工作，看它就知道。</p></br>
+			<p style="text-align:center;"><img src="__IMG__/product/14110704.jpg" /></p></br>
+			<p style="color:#cccccc;font-size:16px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp; 02 03 对于秋天真的没多少要求，宽松又漂亮就行。随手抽出一件果绿的呢外套，不得不说，这样吸睛又亮眼的色彩，恰恰勾起了去尝试一番的好奇心。都说偏荧光的色彩穿得好与不好是两种视觉类型，不过用简单的白色中和它的跳脱，比不错还不错。</p></br>
+			<p style="text-align:center;"><img src="__IMG__/product/14110705.jpg" /></p></br>
+			<p style="color:#cccccc;font-size:16px;line-height:30px;">&nbsp;&nbsp;&nbsp;&nbsp; 02 03  04 从众多街拍中挑选出心宜的几款，浅浅的马卡龙色大衣定是最受欢迎的款式之一。泛着香甜味儿，不浓不淡刚刚好的小香风外套，哪怕有了西装领，雕花一粒扣依旧将少女粉嫩的时光收藏。</p>
+			
+			<div class="more"><img src="__IMG__/more.gif" /></div>
+			<div class="fenx"><img src="__IMG__/product/14110706.jpg" /></div>
+		</div>
+	</div>
+	<!--底部-->
+	<div class="bottom">
+		<div class="bottom-top">
+			<div class="linker">
+				<a class="abq" href="#"><img src="__IMG__/xlweibo.gif" /></a>
+				<a class="abq" href="#"><img src="__IMG__/txweibo.gif" /></a>
+				<a class="abq" href="#"><img src="__IMG__/weixin.gif" /></a>
+				<div class="liuy">
+					<a href="message.html">
+						<div class="tubiao"><img src="__IMG__/liuy.gif" /></div>
+						<div class="wenzi">在线留言</div>
+						<div class="clearBoth"></div>
+					</a>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
+		</div>
+		<div class="bottom-bot">Powered By XXX</div>
+	</div>
+</div>
+</body>
+</html>

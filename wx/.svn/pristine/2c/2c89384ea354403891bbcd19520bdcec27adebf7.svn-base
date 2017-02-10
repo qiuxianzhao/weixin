@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<title>微官网</title>
+	
+	<meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+	
+	<!-- Mobile Devices Support @begin -->
+        <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+        <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+        <meta content="no-cache" http-equiv="pragma">
+        <meta content="0" http-equiv="expires">
+        <meta content="telephone=no, address=no" name="format-detection">
+        <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- Mobile Devices Support @end -->
+	
+	<link href="__CSS__/index.css" rel="stylesheet" type="text/css" />
+	<link href="__CSS__/common.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__JS__/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="__JS__/main.js"></script>
+	<script type="text/javascript" src="__JS__/jquery.rotate.min.js"></script>
+</head>
+
+<body>
+<div class="main">
+	<!--头部-->
+	<div class="header" id="bktop">
+		<div class="logo"><a href="index.html"><img src="__IMG__/logo.gif" /></a></div>
+		<div class="banner">
+			<div class="close"><img id="img1" src="__IMG__/banner01.gif" /></div>
+			<div class="open hide"><img id="img2" src="__IMG__/banner02.gif" /></div>
+			<ul class="xla">
+				<li>
+					<a href="about.html"><font>关于我们</font><img src="__IMG__/xiala.gif" /></a>
+				</li>
+				<li>
+					<a class="dianj dj1" href="javascript:;"><font>最新资讯</font><img id="ig1" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="news.html">服饰搭配</a>
+						<a href="news.html">时尚家居</a>
+						<a href="news.html">美食特产</a>
+					</div>
+				</li>
+				<li>
+					<a class="dianj dj2" href="javascript:;"><font>图片墙</font><img id="ig2" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="images.html">服饰搭配</a>
+						<a href="images.html">时尚家居</a>
+						<a href="images.html">美食特产</a>
+					</div>
+				</li>
+				<li>
+					<a href="class.html"><font>分类查询</font><img id="ig3" src="__IMG__/xiala.gif" /></a>
+				</li>
+				<li>
+					<a class="dianj dj4" href="javascript:;"><font>推荐阅读</font><img id="ig4" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="#">服饰搭配</a>
+						<a href="#">时尚家居</a>
+						<a href="#">美食特产</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clearBoth"></div>
+	</div>
+	<!--资讯列表-->
+	<div class="newsban">首页 > 最新资讯 > 服饰搭配</div>
+	<table class="newwclass">
+		<tr class="juzhon">
+			<td><a class="on" href="#">服饰搭配</a></td>
+			<td><a href="#">时尚家居</a></td>
+			<td><a href="#">美食特产</a></td>
+		</tr>
+	</table>
+	<div class="news about">	
+		<!--资讯列表-->
+		<div class="newslist">
+			<div class="qtao">
+				<div class="mg">
+					<div class="mgl"><img src="__IMG__/product/14110602.jpg" width="100%"/></div>
+					<div class="mgr">
+						<h3>卫衣</h3>
+						<div class="what">
+							<div class="time">
+								<div class="tub"><img src="__IMG__/time.gif" /></div>
+								<div class="shij">2014-10-25</div>
+								<div class="clearBoth"></div>
+							</div>
+							<div class="time hit">
+								<div class="tub"><img src="__IMG__/hit.gif" /></div>
+								<div class="shij">1022</div>
+								<div class="clearBoth"></div>
+							</div>
+							<div class="clearBoth"></div>
+						</div>
+						<div class="jianj">卫衣，有着以一敌百的实用性、包容性和舒适度，信手拈来，搭配短裤短裙打底裤紧身裤等等都各具风情。它柔软而不柔弱，厚实而不厚重。
+						</div>
+						<div class="ydu">
+							<div class="anniu"><a href="news_detail.html"><img src="__IMG__/ydu.gif" /></a></div>
+							<div class="clearBoth"></div>
+						</div>
+					</div>
+					<div class="clearBoth"></div>
+				</div>
+			</div>
+			<div class="qtao">
+				<div class="mg">
+					<div class="mgl"><img src="__IMG__/product/14110603.jpg" width="100%" /></div>
+					<div class="mgr">
+						<h3>卫衣</h3>
+						<div class="what">
+							<div class="time">
+								<div class="tub"><img src="__IMG__/time.gif" /></div>
+								<div class="shij">2014-10-25</div>
+								<div class="clearBoth"></div>
+							</div>
+							<div class="time hit">
+								<div class="tub"><img src="__IMG__/hit.gif" /></div>
+								<div class="shij">1022</div>
+								<div class="clearBoth"></div>
+							</div>
+							<div class="clearBoth"></div>
+						</div>
+						<div class="jianj">卫衣，有着以一敌百的实用性、包容性和舒适度，信手拈来，搭配短裤短裙打底裤紧身裤等等都各具风情。它柔软而不柔弱，厚实而不厚重。
+						</div>
+						<div class="ydu">
+							<div class="anniu"><a href="news_detail.html"><img src="__IMG__/ydu.gif" /></a></div>
+							<div class="clearBoth"></div>
+						</div>
+					</div>
+					<div class="clearBoth"></div>
+				</div>
+			</div>
+			<div class="qtao">
+				<div class="mg">
+					<div class="mgl"><img src="__IMG__/product/14110604.jpg" width="100%" /></div>
+					<div class="mgr">
+						<h3>卫衣</h3>
+						<div class="what">
+							<div class="time">
+								<div class="tub"><img src="__IMG__/time.gif" /></div>
+								<div class="shij">2014-10-25</div>
+								<div class="clearBoth"></div>
+							</div>
+							<div class="time hit">
+								<div class="tub"><img src="__IMG__/hit.gif" /></div>
+								<div class="shij">1022</div>
+								<div class="clearBoth"></div>
+							</div>
+							<div class="clearBoth"></div>
+						</div>
+						<div class="jianj">卫衣，有着以一敌百的实用性、包容性和舒适度，信手拈来，搭配短裤短裙打底裤紧身裤等等都各具风情。它柔软而不柔弱，厚实而不厚重。
+						</div>
+						<div class="ydu">
+							<div class="anniu"><a href="news_detail.html"><img src="__IMG__/ydu.gif" /></a></div>
+							<div class="clearBoth"></div>
+						</div>
+					</div>
+					<div class="clearBoth"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--分页-->
+	<table class="page">
+		<tr class="juzhon">
+			<td><a href="#"><img src="__IMG__/first.gif" /></a></td>
+			<td><a href="#"><img src="__IMG__/pre.gif" /></a></td>
+			
+			<td><a href="#">1</a></td>
+			<td><a class="on" href="#">2</a></td>
+			<td><a href="#">3</a></td>
+			
+			<td><a href="#"><img src="__IMG__/next.gif" /></a></td>
+			<td><a href="#"><img src="__IMG__/last.gif" /></a></td>
+		</tr>
+	</table>
+	<!--底部-->
+	<div class="bottom">
+		<div class="bottom-top">
+			<div class="linker">
+				<a class="abq" href="#"><img src="__IMG__/xlweibo.gif" /></a>
+				<a class="abq" href="#"><img src="__IMG__/txweibo.gif" /></a>
+				<a class="abq" href="#"><img src="__IMG__/weixin.gif" /></a>
+				<div class="liuy">
+					<a href="message.html">
+						<div class="tubiao"><img src="__IMG__/liuy.gif" /></div>
+						<div class="wenzi">在线留言</div>
+						<div class="clearBoth"></div>
+					</a>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
+		</div>
+		<div class="bottom-bot">Powered By XXX</div>
+	</div>
+</div>
+</body>
+</html>

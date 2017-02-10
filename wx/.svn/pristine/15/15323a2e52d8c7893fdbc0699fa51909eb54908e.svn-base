@@ -1,0 +1,51 @@
+<?php
+  namespace Common\Model;
+  use Think\Model;
+  class WechatModel extends Model{
+    private $access_token; //临时票据
+    //获取票据
+    public function __construct(){
+      parent::__construct();
+      $info = $this->find(1);
+      $this->access_token = $info['access_token'];
+      //如果票据失效则去微信服务器获取
+
+      if( ($info['create_time'] + $info['expires_in'] + 120) <= APP_TIME ){ 
+        //获取Access Token 接口
+        $appid       = C('APPID');
+        $appsecret   = C('APPSECRET');
+
+        $api = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$appid}&secret={$appsecret}";
+        $info = json_decode( $this->curl($api) );
+
+        $this->access_token = $info->access_token;
+        $data['access_token'] = $info->access_token;
+        $data['expires_in']   = $info->expires_in;
+        $data['create_time']  = APP_TIME;
+        $this->where( "appid='$appid'" )->save($data);
+      }
+    }
+
+    //获取菜单
+    public function getMenu(){
+      $api = 'https://api.weixin.qq.com/cgi-bin/menu/get?access_token='.$this->access_token;
+      return json_decode( $this->curl($api) );
+    }
+
+    //CURL模拟http操作
+    public function curl($url,$data=[]){
+      $curl = curl_init();
+      curl_setopt($curl,CURLOPT_URL,$url);
+      curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,false);
+      curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,false);
+      if($data){
+        curl_setopt($curl,CURLOPT_POST,1);
+        curl_setopt($curl,CURLOPT_POSTFIELDS,$data);
+      }
+      curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);
+      $res = curl_exec($curl);
+      curl_close($curl);
+      return $res;
+    }    
+
+  }

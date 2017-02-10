@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<title>微官网</title>
+	
+	<meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+	
+	<!-- Mobile Devices Support @begin -->
+        <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+        <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+        <meta content="no-cache" http-equiv="pragma">
+        <meta content="0" http-equiv="expires">
+        <meta content="telephone=no, address=no" name="format-detection">
+        <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- Mobile Devices Support @end -->
+	<link href="__CSS__/index.css" rel="stylesheet" type="text/css" />
+	<link href="__CSS__/common.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__JS__/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="__JS__/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="__JS__/main.js"></script>
+	<script type="text/javascript" src="__JS__/jquery.rotate.min.js"></script>
+</head>
+
+<body>
+<div class="main">
+	<!--头部-->
+	<div class="header" id="bktop">
+		<div class="logo"><a href="index.html"><img src="__IMG__/logo.gif" /></a></div>
+		<div class="banner">
+			<div class="close"><img id="img1" src="__IMG__/banner01.gif" /></div>
+			<div class="open hide"><img id="img2" src="__IMG__/banner02.gif" /></div>
+			<ul class="xla">
+				<li>
+					<a href="about.html"><font>关于我们</font><img src="__IMG__/xiala.gif" /></a>
+				</li>
+				<li>
+					<a class="dianj dj1" href="javascript:;"><font>最新资讯</font><img id="ig1" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="news.html">服饰搭配</a>
+						<a href="news.html">时尚家居</a>
+						<a href="news.html">美食特产</a>
+					</div>
+				</li>
+				<li>
+					<a class="dianj dj2" href="javascript:;"><font>图片墙</font><img id="ig2" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="images.html">服饰搭配</a>
+						<a href="images.html">时尚家居</a>
+						<a href="images.html">美食特产</a>
+					</div>
+				</li>
+				<li>
+					<a href="class.html"><font>分类查询</font><img id="ig3" src="__IMG__/xiala.gif" /></a>
+				</li>
+				<li>
+					<a class="dianj dj4" href="javascript:;"><font>推荐阅读</font><img id="ig4" src="__IMG__/xiala.gif" /></a>
+					<div class="zilan">
+						<a href="#">服饰搭配</a>
+						<a href="#">时尚家居</a>
+						<a href="#">美食特产</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clearBoth"></div>
+	</div>
+	<!--关于我们内容-->	
+	<div class="about">	
+		<div class="title">在线留言</div>
+		<form action="" method="post" >
+			<div class="ipu">
+				<div class="name"><span>*</span>姓名：</div>
+				<div class="shuri"><input class="tip" name="name" type="text" value="" ></div>
+			</div>
+			<div class="ipu">
+				<div class="name">电话：</div>
+				<div class="shuri"><input class="tip" name="tel" type="text" value="" ></div>
+			</div>
+			<div class="ipu">
+				<div class="name"><span>*</span>邮箱：</div>
+				<div class="shuri"><input class="tip" name="email" type="text" value="" ></div>
+			</div>
+			<div class="ipu">
+				<div class="name"><span>*</span>内容：</div>
+				<div class="shuri">
+				<textarea name="content" id="TextArea1" class="teartxt tips" cols="20" rows="2" ></textarea>
+				</div>
+			</div>
+			<div class="zylb">
+				<div class="ipu">
+					<div class="name"><span>*</span>验证码</div>
+					<div class="shuri"><input class="yzma" name="code" type="text" value="" ></div>
+				</div>
+				<div class="yzmt"><img src="__IMG__/yzma.jpg" /></div>
+				<div class="clearBoth"></div>
+			</div>
+			<div class="ipu">
+				<div class="name"><span>带“*”字符的为必填。</span></div>
+			</div>
+			<div class="anniu">
+                <input type="submit" name="submit" id="button" value="" />
+            </div>
+		</form>
+	</div>
+	<!--底部-->
+	<div class="bottom">
+		<div class="bottom-top">
+			<div class="linker">
+				<a class="abq" href="#"><img src="__IMG__/xlweibo.gif" /></a>
+				<a class="abq" href="#"><img src="__IMG__/txweibo.gif" /></a>
+				<a class="abq" href="#"><img src="__IMG__/weixin.gif" /></a>
+				<div class="liuy">
+					<a href="message.html">
+						<div class="tubiao"><img src="__IMG__/liuy.gif" /></div>
+						<div class="wenzi">在线留言</div>
+						<div class="clearBoth"></div>
+					</a>
+				</div>
+				<div class="clearBoth"></div>
+			</div>
+		</div>
+		<div class="bottom-bot">Powered By XXX</div>
+	</div>
+</div>
+</body>
+</html>
